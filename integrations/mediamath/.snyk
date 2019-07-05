@@ -1,0 +1,50 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - npm-check > inquirer > lodash:
+        patched: '2019-07-05T05:54:22.646Z'
+    - npm-check > lodash:
+        patched: '2019-07-05T05:54:22.646Z'
+    - karma-browserify > lodash:
+        patched: '2019-07-05T05:54:22.646Z'
+    - karma-coverage > lodash:
+        patched: '2019-07-05T05:54:22.646Z'
+    - karma-phantomjs-launcher > lodash:
+        patched: '2019-07-05T05:54:22.646Z'
+    - eslint > table > lodash:
+        patched: '2019-07-05T05:54:22.646Z'
+    - eslint > inquirer > lodash:
+        patched: '2019-07-05T05:54:22.646Z'
+    - karma > combine-lists > lodash:
+        patched: '2019-07-05T05:54:22.646Z'
+    - npm-check > depcheck > lodash:
+        patched: '2019-07-05T05:54:22.646Z'
+    - npm-check > callsite-record > lodash:
+        patched: '2019-07-05T05:54:22.646Z'
+    - karma-sauce-launcher > sauce-connect-launcher > lodash:
+        patched: '2019-07-05T05:54:22.646Z'
+    - eslint > lodash:
+        patched: '2019-07-05T05:54:22.646Z'
+    - karma-sauce-launcher > wd > lodash:
+        patched: '2019-07-05T05:54:22.646Z'
+    - karma-sauce-launcher > wd > archiver > lodash:
+        patched: '2019-07-05T05:54:22.646Z'
+    - karma-sauce-launcher > wd > async > lodash:
+        patched: '2019-07-05T05:54:22.646Z'
+    - npm-check > depcheck > babel-traverse > lodash:
+        patched: '2019-07-05T05:54:22.646Z'
+    - karma-sauce-launcher > sauce-connect-launcher > async > lodash:
+        patched: '2019-07-05T05:54:22.646Z'
+    - karma-sauce-launcher > wd > archiver > zip-stream > lodash:
+        patched: '2019-07-05T05:54:22.646Z'
+    - karma-sauce-launcher > wd > archiver > archiver-utils > lodash:
+        patched: '2019-07-05T05:54:22.646Z'
+    - karma-sauce-launcher > wd > archiver > async > lodash:
+        patched: '2019-07-05T05:54:22.646Z'
+    - npm-check > depcheck > babel-traverse > babel-types > lodash:
+        patched: '2019-07-05T05:54:22.646Z'
+    - karma-sauce-launcher > wd > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2019-07-05T05:54:22.646Z'
