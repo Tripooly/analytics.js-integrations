@@ -1,0 +1,11 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - '@segment/clear-env > @segment/clear-cookies > component-cookie > debug':
+        patched: '2020-04-25T02:47:20.771Z'
+  'npm:ms:20170412':
+    - '@segment/clear-env > @segment/clear-cookies > component-cookie > debug > ms':
+        patched: '2020-04-25T02:47:20.771Z'
